@@ -11,7 +11,7 @@ We encountered certain irregularities in the dataset and resolved them as below:
 #### Model:
 Features used: ‘Receipt Number’, ‘Item Description’. 
 
-#####Description:
+##### Description:
 Each receipt number denotes one basket against which items are purchased. We have used Item Description to identify each item in a basket. First, we performed MBA using **Apriori** algorithm on all the stores. However, we observed that the item ‘CMN Donations’ (which is not really an item) is occurring almost in each association rule. Also, there are certain item descriptions that depict promotional codes containing strings like INST SAVINGS, COUPON SAVE and thus cannot be considered as actual items. Hence, we removed the entries for these records. We observed that ‘Fasteners’ is an item that is frequently bought, almost with all the items. Hence, to identify significant associations, we removed ’Fasteners’ records.
 
 To perform MBA, we consolidated the items into one transaction per row, ie, all items with the same receipt number form a single row. Now, ’Receipt Number’ is our index and all the items form the columns. We then performed one hot encoding on the columns, ie, when the item is present in the basket (any positive net sales units value), the value of that column is one otherwise, zero.
