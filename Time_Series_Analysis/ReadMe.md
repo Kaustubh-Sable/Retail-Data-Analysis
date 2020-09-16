@@ -28,7 +28,7 @@ Model building:
 - We have split the dataset into train and test where test data consists of last 5 months.
 - We have used XGBoost model to predict the sales units and gauge the accuracy of the model using RMSE.
 
-![Seasonality Trends](https://github.com/Kaustubh-Sable/Retail-Data-Analysis/blob/master/Time_Series_Analysis/Images/Seasonality_Trends.png)
+![Seasonality Trends](https://github.com/Kaustubh-Sable/Retail-Data-Analysis/blob/master/Time_Series_Analysis/Images/Seasonality_Trends.jpg)
 
 ####  Results:
 We tested our model against the test dataset and got the root mean square error (RMSE) value as 1.06006. From this, we can deduce that our model has performed quite well. Hence, the predicted values by our model could be helpful for item-wise demand prediction for various stores.
