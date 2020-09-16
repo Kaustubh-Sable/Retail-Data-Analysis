@@ -10,7 +10,7 @@ resolved them as below:
 #### Analysis:
 Features used: ’Store Name’, ’Item Description’, ’Gross Margin’. 
 
-#####Description:
+##### Description:
 For this analysis, we calculated ’Gross Margin’ per store by grouping dataset per store and summing over the margin for each store. Following figure shows the aggregate gross margin of each store:
 ![Aggregate Gross Margin](https://github.com/Kaustubh-Sable/Retail-Data-Analysis/blob/master/Loss_Leader_Analysis/Images/Aggr_Gross_Margin.png)
 
