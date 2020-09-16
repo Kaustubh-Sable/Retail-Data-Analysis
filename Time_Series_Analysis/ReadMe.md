@@ -11,7 +11,7 @@ resolved them as below:
 #### Model:
 Features used: ’Date’, ’Store #’, ’Item Number’, ’Net Sales Units’.
 
-#####Description:
+##### Description:
 * We grouped the data based on Date, Store #, Item number features and did summation of Net Sales Units for the combination. 
 
 Then, we performed some analysis:
